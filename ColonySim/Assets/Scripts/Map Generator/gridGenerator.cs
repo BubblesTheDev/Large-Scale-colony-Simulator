@@ -76,7 +76,7 @@ public class gridGeneratorEditor : Editor
         if (GUILayout.Button("Randomize Map"))
         {
             gen.seed = Random.Range(1, 100000);
-            gen.perlinScale = Random.Range(50f, 500f);
+            //gen.perlinScale = Random.Range(50f, 500f);
             gen.generateGrid();
 
         }
